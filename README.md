@@ -15,4 +15,9 @@
 
 
 ### JWT 
-1) put the directory in config/
+1) put the directory in config/ or if you want a fresh key you can make:
+`$ mkdir -p config/jwt
+$ openssl genpkey -out config/jwt/private.pem -aes256 -algorithm rsa -pkeyopt rsa_keygen_bits:4096
+$ openssl pkey -in config/jwt/private.pem -out config/jwt/public.pem -pubout`
+
+and put your generated password in .env.local
