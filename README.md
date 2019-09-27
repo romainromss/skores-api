@@ -12,3 +12,7 @@
 6) For used api, go on `http:localhost:yourport/api/login_check` for getting your token.(JWT Token are implemented)
 
 7) If you want see the all links in the api you go on `http://localhost:yourport/api/doc` (it's not json document)
+
+
+### JWT 
+1) put the directory in config/
